@@ -5,7 +5,11 @@
   
 	<mapper namespace="com.spring.mapper.GalleryMapper">
 		
-		
+		<select id="list" resultType="GalleryVO">
+			select *
+			from gallery
+			order by num desc
+		</select>
 		
 		
 		
