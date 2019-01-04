@@ -29,14 +29,6 @@ public class GalleryController {
 		model.addAttribute("list", service.list());
 	}
 	
-	@RequestMapping("write")
-	public void Gwrite(CommandMap commandMap,HttpServletRequest request) throws Exception{
-		logger.info("Gwrite 실행!!!");
-		
-		//service.write(commandMap. ,request);
-	}
-	
-	
 	
 	
 	
